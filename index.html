@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#08090b">
+    <meta name="description"
+        content="LISA — Lengare Innovation in Software & Applications. Play games online and discover useful software.">
+    <title>LISA | Games & Software</title>
+    <link rel="icon" type="image/png" href="assets/lisa-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="LISA Home">
+            <img src="assets/lisa-logo.png" alt="LISA — Lengare Innovation in Software & Applications">
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-controls="siteNav" aria-expanded="false"
+            aria-label="Open navigation">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#games" class="nav-link">Games</a>
+            <a href="#software" class="nav-link">Software</a>
+            <a href="#about" class="nav-link">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home" aria-labelledby="hero-title">
+            <div class="eyebrow">
+                <span class="light-dot"></span> WELCOME TO LISA
+            </div>
+
+            <h1 id="hero-title">
+                A new world of<br>
+                <em>play & possibility.</em>
+            </h1>
+
+            <p class="hero-copy">
+                Play online games with friends. Discover tools built for everyday life.
+                One home for everything we create.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button button-primary" href="#games">
+                    Explore Games <span aria-hidden="true">↗</span>
+                </a>
+                <a class="button button-ghost" href="#software">
+                    Browse Software <span aria-hidden="true">→</span>
+                </a>
+            </div>
+
+            <div class="hero-label">
+                <span class="hero-line"></span>
+                LENGARE INNOVATION IN SOFTWARE & APPLICATIONS
+            </div>
+
+            <div class="hero-glow" aria-hidden="true"></div>
+        </section>
+
+        <section class="section container" id="explore" aria-labelledby="explore-title">
+            <div class="section-top">
+                <div>
+                    <p class="section-kicker">THE PLATFORM</p>
+                    <h2 id="explore-title">Two worlds. One destination.</h2>
+                </div>
+            </div>
+
+            <div class="category-grid">
+                <a class="category-card" href="#games">
+                    <div class="category-top">
+                        <span class="category-icon">♠</span>
+                        <span class="small-arrow">↗</span>
+                    </div>
+                    <div>
+                        <span class="category-number">01 / PLAY</span>
+                        <h3>Online Games</h3>
+                        <p>Jump straight into games with friends. No download, no installation.</p>
+                        <span class="category-cta">Discover games <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+
+                <a class="category-card" href="#software">
+                    <div class="category-top">
+                        <span class="category-icon">⌘</span>
+                        <span class="small-arrow">↗</span>
+                    </div>
+                    <div>
+                        <span class="category-number">02 / CREATE</span>
+                        <h3>Software</h3>
+                        <p>Thoughtfully designed applications and tools to make life simpler.</p>
+                        <span class="category-cta">Explore software <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section container" id="games" aria-labelledby="games-title">
+            <div class="section-top">
+                <div>
+                    <p class="section-kicker">LISA GAMES</p>
+                    <h2 id="games-title">Play something great.</h2>
+                </div>
+                <span class="section-aside">INSTANT PLAY • NO DOWNLOADS</span>
+            </div>
+
+            <div class="game-grid">
+                <article class="game-card featured-game">
+                    <div class="game-art" aria-hidden="true">
+                        <div class="table-ring">
+                            <span class="play-card card-a">A<span>♠</span></span>
+                            <span class="play-card card-b">K<span>♥</span></span>
+                            <span class="play-card card-c">?</span>
+                        </div>
+                    </div>
+
+                    <div class="game-info">
+                        <div>
+                            <span class="tag live-tag">
+                                <span class="light-dot"></span> PLAYABLE ONLINE
+                            </span>
+
+                            <h3>BLUFF</h3>
+
+                            <p>
+                                Read the room. Play your cards. Call their bluff.
+                                An online multiplayer card game for 3–6 players.
+                            </p>
+
+                            <span class="meta">
+                                ♠ Card Game
+                                <span class="dot-separator">·</span>
+                                3–6 Players
+                                <span class="dot-separator">·</span>
+                                Multiplayer
+                            </span>
+                        </div>
+
+                        <a class="button button-primary" id="bluffPlay" href="#games">
+                            Play BLUFF <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <div class="coming-card">
+                    <div class="coming-symbol">+</div>
+                    <span class="tag">COMING SOON</span>
+                    <h3>More games ahead.</h3>
+                    <p>
+                        This is just the beginning.
+                        New experiences will join the LISA library.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="software" aria-labelledby="software-title">
+            <div class="section-top">
+                <div>
+                    <p class="section-kicker">LISA SOFTWARE</p>
+                    <h2 id="software-title">Tools with a purpose.</h2>
+                </div>
+            </div>
+
+            <div class="software-banner">
+                <div class="software-mark" aria-hidden="true">⌘</div>
+                <div>
+                    <span class="tag">IN DEVELOPMENT</span>
+                    <h3>Useful software. Coming soon.</h3>
+                    <p>
+                        We're building a collection of practical applications.
+                        When they're ready, you'll find secure download links
+                        and product details right here.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container about-section" id="about" aria-labelledby="about-title">
+            <p class="section-kicker">ABOUT LISA</p>
+            <h2 id="about-title">Innovation is our starting point.</h2>
+            <p>
+                LISA stands for
+                <strong>Lengare Innovation in Software & Applications.</strong>
+                A home for games you can enjoy instantly and software
+                created to solve real problems.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>LISA</strong>
+                <p>Lengare Innovation in Software & Applications</p>
+            </div>
+            <span>© <span id="year"></span> LISA. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>
